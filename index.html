@@ -25,45 +25,65 @@
 
 <h1>Picture puzzles</h1>
 
-<p>To choose the puzzle to solve, click a picture. Then, drag and drop the squares to complete the picture.</p>
+<p>To choose the puzzle to solve, click a picture. It will be broken up into 16 pieces and the squares shuffled around. You need to drag and drop the squares to their correct positions.</p>
 
 <hr/>
 
 <ul class="nav nav-pills">
-    <li class="active"><a data-toggle="pill" href="#ragamala">Ragamala paintings</a></li>
-    <li><a data-toggle="pill" href="#classicalarchitecture">Classical architecture</a></li>
-    <li><a data-toggle="pill" href="#signages">Signages</a></li>
+    <li class = "active"><a href="#stilllife">Still life</a></li>
+    <li><a href="#classicalarchitecture">Classical architecture</a></li>
+    <li><a href="#signages">Signages</a></li>
 </ul>
+
+<hr/>
   
-<div class="tab-content">
-    <div id="ragamala" class="tab-pane fade in active">
-      <p>&nbsp;</p>
-	  <a href = "./html/megh.html"><img src = "./images/megh.jpg" style = "width:30%; height:30%; border:1px solid black"/></a>
+<div class = "container-fluid">
+
+    <div id="stilllife">
+	<h2>Still life</h2>
+	<div class = "row">
+	  <div class="col-sm-4"><a href = "./html/life1.html"><img src = "./images/life1.JPG" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+	  <div class="col-sm-4"><a href = "./html/life2.html"><img src = "./images/life2.JPG" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+	  <div class="col-sm-4"><a href = "./html/life3.html"><img src = "./images/life3.JPG" style = "width:90%; height:90%; border:1px solid black"/></a></div>	  
     </div>
-    <div id="classicalarchitecture" class="tab-pane fade">
-      <p>&nbsp;</p>
-	  <a href = "./html/khajuraho1.html"><img src = "./images/khajuraho1.jpg" style = "width:30%; height:30%; border:1px solid black"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href = "./html/khajuraho2.html"><img src = "./images/khajuraho2.jpg" style = "width:30%; height:30%; border:1px solid black"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href = "./html/sarnath1.html"><img src = "./images/sarnath1.jpg" style = "width:30%; height:30%; border:1px solid black"/>
+	<p>&nbsp;</p>
+	<div class = "row">
+	  <div class="col-sm-4"><a href = "./html/life4.html"><img src = "./images/life4.JPG" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+	</div>
+	<hr/>
+	</div>
+	
+    <div id="classicalarchitecture">
+    <h2>Classical Architecture</h2>
+	<div class = "row">
+	  <div class="col-sm-4"><a href = "./html/khajuraho1.html"><img src = "./images/khajuraho1.jpg" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+	  <div class="col-sm-4"><a href = "./html/khajuraho2.html"><img src = "./images/khajuraho2.jpg" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+	  <div class="col-sm-4"><a href = "./html/sarnath1.html"><img src = "./images/sarnath1.jpg" style = "width:90%; height:90%; border:1px solid black"/></div>
     </div>
-    <div id="signages" class="tab-pane fade">
-      <p>&nbsp;</p>
-	  <a href = "./html/sign1.html"><img src = "./images/sign1.jpg" style = "width:30%; height:30%; border:1px solid black"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href = "./html/sign2.html"><img src = "./images/sign2.jpg" style = "width:30%; height:30%; border:1px solid black"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href = "./html/sign3.html"><img src = "./images/sign3.jpg" style = "width:30%; height:30%; border:1px solid black"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href = "./html/sign4.html"><img src = "./images/sign4.jpg" style = "width:30%; height:30%; border:1px solid black"/></a>
+	<hr/>
+	</div>
+	
+    <div id="signages">
+    <h2>Signages</h2>
+	<div class = "row">
+	  <div class="col-sm-4"><a href = "./html/sign1.html"><img src = "./images/sign1.jpg" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+	  <div class="col-sm-4"><a href = "./html/sign5.html"><img src = "./images/sign5.jpg" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+	  <div class="col-sm-4"><a href = "./html/sign3.html"><img src = "./images/sign3.jpg" style = "width:90%; height:90%; border:1px solid black"/></a></div>
     </div>
+	<p>&nbsp;</p>
+	<div class = "row">
+	  <div class="col-sm-4"><a href = "./html/sign4.html"><img src = "./images/sign4.jpg" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+	  <div class="col-sm-4"><a href = "./html/sign2.html"><img src = "./images/sign2.jpg" style = "width:90%; height:90%; border:1px solid black"/></a></div>
+    </div>
+	</div>
+	
 </div>
 
 <hr/>
 
-<h4>Acknowledgements</h4>
-<p>The code of the puzzle is from <a href = "http://code.tutsplus.com/tutorials/create-an-html5-canvas-tile-swapping-puzzle--active-10747" target = "_blank">Create an HTML5 Canvas Tile Swapping Puzzle</a>. The pictures, unless otherwise stated, are under a Creative Commons license.</p>
+<p class = "small">Acknowledgments: The code of the puzzle is from <a href = "http://code.tutsplus.com/tutorials/create-an-html5-canvas-tile-swapping-puzzle--active-10747" target = "_blank">Create an HTML5 Canvas Tile Swapping Puzzle</a>.</p>
 <!--Similar: http://blalbrit.github.io/puzzles and http://puzzle.mikeapps.me/ -->
-
-<hr/>
-
-<p class = "pull-right small"><a href = "https://github.com/AninditaBasu/puzzles">Anindita Basu</a></p>
+<p class = "small">&copy; <a href = "https://twitter.com/anindita_basu">Anindita Basu</a></p>
 
 </div><!-- ./container -->
 
